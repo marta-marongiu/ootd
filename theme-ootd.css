@@ -1,1 +1,18 @@
 /* Prima prova bootstrap */
+header {
+	background: linear-gradient(rgba(51,51,62,0.9), rgba(51,51,62,0.9)),
+				url('img/ny-girl.jpg');
+				background-size: cover;
+	
+}
+header .logo {
+	max-width: 150px;
+
+}
+
+@media screen and (max-width: 550px) {
+	header .logo {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
