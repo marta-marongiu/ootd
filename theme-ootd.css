@@ -26,6 +26,7 @@ body {
 .btn-cta .glyphicon {
 	font-size: 25px;
 	margin-right: 20px;
+	color: white;
 }
 .btn-cta .btn-text {
 	position: relative;
