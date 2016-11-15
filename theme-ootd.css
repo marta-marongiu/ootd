@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 /* Prima prova bootstrap */
 body {
 	font-family: 'Lato', sans-serif;
-=======
+}
 /* Prima prova bootstrap 
 */
 .btn-cta {
@@ -31,7 +30,6 @@ body {
 .btn-cta .btn-text {
 	position: relative;
 	top: -5px;
->>>>>>> ff131a439c51dea87f67cbc9b3e2eec8bdf73ca2
 }
 
 header {
@@ -52,8 +50,6 @@ header .logo {
 	}
 }
 
-<<<<<<< HEAD
-/* style di altre sections */	
 
 
 .invite {
@@ -77,10 +73,9 @@ header .logo {
 .cards {
 	background-color: #31343E;
 	color: #fff;
-=======
+
 .grey {
 	background-color: #a4b4c5;
->>>>>>> ff131a439c51dea87f67cbc9b3e2eec8bdf73ca2
 	text-align: center;
 	color: #fff;
 	padding: 50px 0;
