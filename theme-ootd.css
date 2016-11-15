@@ -13,8 +13,8 @@ body {
 	vertical-align: middle;
 	line-height: 20px;
     padding: 15px 20px;
-
 }
+
  h2 {
 	text-transform: uppercase;
 	font-size: 21px;
@@ -118,4 +118,62 @@ header .logo {
 	padding: 50px 0;
 	
 }
+
+.request {
+	background: linear-gradient(rgba(164,180,197,0.9), rgba(164,180,197,0.9)),
+	url('img/photo-request.jpg');
+    background-size: cover;
+    text-align: center;
+    line-height: 3px;
+    padding: 5% 0;
+		
+}
+
+.request h2 {
+	text-transform: uppercase;
+	font-size: 21px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	color: #fff;
+}
+
+.request input {
+	width: 100%;
+	padding: 15px 50px;
+	font-size: 18px;
+	margin: 10px 0;
+	border-style: none;
+	color: #ACBAC8;
+}
+
+
+.request input:first-child {
+	background-image: url("img/paper-plane.png");
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: 4% 50%;
+
+}
+
+.request input:nth-child(3) {
+    background-image: url("img/account2.png");
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: 4% 50%;
+}
+
+::-webkit-input-placeholder {
+   color: #ACBAC8;
+}
+
+.request a {
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+
+
 
