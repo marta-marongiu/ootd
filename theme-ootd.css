@@ -145,24 +145,6 @@ header .logo {
 	padding: 50px 0;
 }
 
-footer {
-	background-color: #31343e;
-	padding: 50px 0;	
-	text-align: left;
-}
-
-@media screen and (max-width: 767px) {
-	footer {
-	padding: 30px 0;
-	text-align: center;
-	}
-
-	.newsletter .bar-newsletter {
-		margin-bottom: 30px;
-		margin-right: 3px;
-		
-	}
-
 .request {
 	background: linear-gradient(rgba(164,180,197,0.9), rgba(164,180,197,0.9)),
 	url('img/photo-request.jpg');
@@ -220,6 +202,23 @@ footer {
 
 
 
+footer {
+	background-color: #31343e;
+	padding: 50px 0;	
+	text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+	footer {
+	padding: 30px 0;
+	text-align: center;
+	}
+
+	.newsletter .bar-newsletter {
+		margin-bottom: 30px;
+		margin-right: 3px;
+		
+	}
 
 	.social {
 		max-width: 35px;
