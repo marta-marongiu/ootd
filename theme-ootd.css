@@ -1,6 +1,37 @@
+<<<<<<< HEAD
 /* Prima prova bootstrap */
 body {
 	font-family: 'Lato', sans-serif;
+=======
+/* Prima prova bootstrap 
+*/
+.btn-cta {
+	border-color: #fff;
+	border-width: 2px;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 16px;
+	vertical-align: middle;
+	line-height: 20px;
+    padding: 15px 20px;
+
+}
+ h2 {
+	text-transform: uppercase;
+	font-size: 21px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+
+.btn-cta .glyphicon {
+	font-size: 25px;
+	margin-right: 20px;
+}
+.btn-cta .btn-text {
+	position: relative;
+	top: -5px;
+>>>>>>> ff131a439c51dea87f67cbc9b3e2eec8bdf73ca2
 }
 
 header {
@@ -21,6 +52,7 @@ header .logo {
 	}
 }
 
+<<<<<<< HEAD
 /* style di altre sections */	
 
 
@@ -45,28 +77,13 @@ header .logo {
 .cards {
 	background-color: #31343E;
 	color: #fff;
+=======
+.grey {
+	background-color: #a4b4c5;
+>>>>>>> ff131a439c51dea87f67cbc9b3e2eec8bdf73ca2
 	text-align: center;
-	padding: 100px 0;
+	color: #fff;
+	padding: 50px 0;
 	
 }
 
-.cards h2 {
-	text-transform: uppercase;
-	font-size: 21px;
-	font-weight: bold;
-	margin-bottom: 30px;
-	margin-top: 40px;
-}
-
-.cards p {
-	font-size: 16px;
-}
-
-.box p {
-	padding: 0 60px;
-}
-
-.glyphicon {
-	font-size: 35px;
-	color: #e32fff;
-}
