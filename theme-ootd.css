@@ -294,9 +294,6 @@ footer {
   }
 }
 
-// non-related styling:
-
-
 .multi-item-carousel .carousel-inner > .item {
   -webkit-transition: 500ms ease-in-out left;
   transition: 500ms ease-in-out left;
@@ -331,7 +328,19 @@ footer {
 
 .lateral {
 	filter: contrast(40%) brightness(140%) grayscale(60%);
+}
 
-	
-	
+.popular {
+	text-transform: uppercase;
+	background-color: #31343e;
+	color: #fefefe;
+	min-height: 100px;
+	text-align: center;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.popular h2 {
+	margin: 0 auto;
+	padding: 40px;
 }
