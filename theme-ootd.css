@@ -58,6 +58,7 @@ h2 {
 		position: relative;
 		left: -40px;
 	}
+}
 
 header {
 	background: linear-gradient(rgba(51,51,62,0.9), rgba(51,51,62,0.9)),
@@ -235,8 +236,6 @@ header .logo {
 	margin: 10px 0;
 }
 
-<<<<<<< HEAD
-=======
 .profile {
 	background-color: #cdd9e5;
 }
@@ -261,7 +260,6 @@ header .logo {
 	line-height: 5px;
 }
 
->>>>>>> 230ba5c6d90f79d1150fb9813cc49ccf1a6a2059
 footer {
 	background-color: #31343e;
 	padding: 50px 0;	
