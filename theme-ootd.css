@@ -58,6 +58,7 @@ h2 {
 		position: relative;
 		left: -40px;
 	}
+}
 
 header {
 	background: linear-gradient(rgba(51,51,62,0.9), rgba(51,51,62,0.9)),
@@ -236,8 +237,7 @@ header .logo {
 	margin: 10px 0;
 }
 
-<<<<<<< HEAD
-=======
+
 .profile {
 	background-color: #cdd9e5;
 }
@@ -262,7 +262,7 @@ header .logo {
 	line-height: 5px;
 }
 
->>>>>>> 230ba5c6d90f79d1150fb9813cc49ccf1a6a2059
+
 footer {
 	background-color: #31343e;
 	padding: 50px 0;	
@@ -357,26 +357,29 @@ footer .btn-newsletter {
 	}
 }
 
-    .next{
-      left: 33%;
-    }
-    .prev{
-      left: -33%;
-    }
-    @media all and (transform-3d), (-webkit-transform-3d) {
-      > .item{
-        // use your favourite prefixer here
-        transition: 500ms ease-in-out all;
-        backface-visibility: visible;
-        transform: none!important;
-      }
-    }
-  }
-  .carouse-control{
+.next {
+left: 33%;
+}
+.prev {
+left: -33%;
+}
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+> .item {
+   transition: 500ms ease-in-out all;
+   backface-visibility: visible;
+   transform: none;
+   }
+}
+  
+  .carouse-control {
     &.left, &.right{
       background-image: none;
     }
   }
+}
+.item {
+	background-color: #31343e;
 }
 
 .multi-item-carousel .carousel-inner > .item {
@@ -402,8 +405,8 @@ footer .btn-newsletter {
     transition: 500ms ease-in-out all;
     -webkit-backface-visibility: visible;
             backface-visibility: visible;
-    -webkit-transform: none!important;
-            transform: none!important;
+    -webkit-transform: none;
+            transform: none;
   }
 }
 .multi-item-carousel .carouse-control.left,
