@@ -197,10 +197,34 @@ header .logo {
 	width: 100%;
 	text-transform: uppercase;
 	font-weight: bold;
+	box-sizing: border-box;
+	padding: 15px;
 	margin: 10px 0;
 }
 
+.profile {
+	background-color: #cdd9e5;
+}
 
+.profile .profile-card {
+	background-color: white;
+	text-align: center;
+	padding: 4% 1%;
+}
+
+.profile img {
+	width: 20%;
+	border-radius: 150px;
+	margin-bottom: 20px;
+}
+
+.profile p:nth-child(2) {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: underline;
+	line-height: 5px;
+}
 
 footer {
 	background-color: #31343e;
