@@ -9,10 +9,9 @@
 
     <!-- Bootstrap--> 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="../bootstrap-intro/css/bootstrap.min.css" rel="stylesheet">
-    <link href="theme-ootd.css" rel="stylesheet">
-   
-
+    <link href="../bootstrap-intro/css/bootstrap.min.css" rel="stylesheet"> 
+  	<link href="theme-ootd.css" rel="stylesheet">
+  	
    <!-- additional font: Lato -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
@@ -23,28 +22,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script >// Instantiate the Bootstrap carousel
-            $('#myCarousel').carousel({
-          interval: 10000
-        })
-
-        $('.carousel .item').each(function(){
-          var next = $(this).next();
-          if (!next.length) {
-            next = $(this).siblings(':first');
-          }
-          next.children(':first-child').clone().appendTo($(this));
-          
-          if (next.next().length>0) {
-            next.next().children(':first-child').clone().appendTo($(this));
-          }
-          else {
-            $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-          }
-        });
-    </script>
-
-
+    
 
   </head>
 
@@ -55,7 +33,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12"><img src="img/logo.png" class="img-responsive logo"></div>
-                <img class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 img-responsive" src="img/phone.png">
+                <img class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 img-responsive" src="img/ootdphone.png">
             </div>
         </div>    
     </header>
@@ -130,11 +108,11 @@
         </div>
     </section>
 
-    <section class="popular">
+    <section class="popular"><!--container con h2-->
         <h2>Popular</h2>        
     </section>
        
-    <section><!--container con h2--><!--container-fluid con 3 colonne da 4 (slideshow)-->
+    <section><!--carousel con 3 colonne da 4 (slideshow)-->
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
@@ -238,9 +216,15 @@
             </div>
         </div>
     </footer> 
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!--Jquery slide show slick-->
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	
+	<script type="text/javascript" src="script-ootd.js"></script>
   </body>
 </html>
