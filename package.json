@@ -1,0 +1,22 @@
+{
+  "name": "ootd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marta-marongiu/ootd.git"
+  },
+  "author": "marta marongiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marta-marongiu/ootd/issues"
+  },
+  "homepage": "https://github.com/marta-marongiu/ootd#readme",
+  "devDependencies": {
+    "gulp-less": "^3.3.0"
+  }
+}
