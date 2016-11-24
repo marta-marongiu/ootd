@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/marta-marongiu/ootd#readme",
   "devDependencies": {
-    "gulp-less": "^3.3.0"
+    "gulp-less": "^3.3.0",
+    "gulp-watch": "^4.3.11"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
   }
 }

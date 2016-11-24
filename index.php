@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>OOTD</title>
+
+    <!-- Bootstrap--> 
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="css/style.css" rel="stylesheet">
+  	
+   <!-- additional font: Lato -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ </head>
+
+ <body>
+    <header>
+            <!-- header con logo e container con immagine -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12"><img src="img/logo.png" class="img-responsive logo"></div>
+                    <img class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 img-responsive" src="img/ootdphone.png">
+                </div>
+            </div>    
+    </header>
+        <section class="gray"> <!-- container con h2 e button -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <h2>Outfit of the day</h2>
+                        <a href="#" class="btn btn-cta btn-lg">
+                            <span class="glyphicon glyphicon-apple"></span>
+                            <span class="btn-text">available now on the app store</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+          
+        <section class="invite"> <!--container con icona, h3 e p -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <span class="glyphicon glyphicon-send"></span>
+                        <h3>By invite only fashion network</h3>
+                        <p>Receive an invite for a member or request an invite below to gain access to the most exclusive fashion network</p>
+                    </div>
+                </div>
+            </div>     
+        </section>
+         
+        <section><!--container-fluid con 3 colonne da 4 con all'interno icona, h2, hr e p -->
+            <div class="container-fluid cards">  
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 box">
+                        <span class="glyphicon glyphicon-picture"></span>
+                        <h2>Show the world</h2>
+                        <hr width="13%">
+                        <p>Capture your ootd then share it with all your friends and followers</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 box">
+                        <span class="glyphicon glyphicon-tag"></span>
+                        <h2>Discover the latest trends</h2>
+                        <hr width="13%">
+                        <p>Hashtag your photos each day and follow trends from around the world</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 box">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <h2>Follow and invite</h2>
+                        <hr width="13%">
+                        <p>Search for your favourite fashion icons and build your network around you</p>
+                    </div>
+                </div>
+            </div>      
+        </section>
+          
+        <section class="request"><!--container con h2 e form -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4">
+                        <h2> Request an invite </h2>
+                        <form>
+                            <input type="text" name="email" placeholder="Email address..."> 
+                            <br>
+                            <input type="text" name="company" placeholder="Company name/ Blog url..." id="account">
+                            <br>
+                            <a href="#" class="btn btn-cta btn-cta-send btn-lg">
+                            <span class="send">send</span>
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section><!--carousel con 3 colonne da 4 (slideshow)-->
+            <div class="container-fluid">
+              <div class="row">
+              	    <div class=" col-xs-12 popular"><!--container con h2-->
+       					<h2>Popular</h2>        
+        			</div> 
+                    <div class="col-md-12">
+                      <div class="carousel slide multi-item-carousel" id="theCarousel">
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            	<div class="col-sm-4 col-xs-12 hidden-xs">
+                            		<a href="#1">
+                            			<img src="img/emma.jpg" class="img-responsive lateral">
+                            		</a>
+                            	</div>
+                            	<div class="col-sm-4 col-xs-12">
+                            		<a href="#1">
+                            			<img src="img/cara.jpg" class="img-responsive">
+                            		</a>
+                           	 	</div>
+                             	<div class="col-sm-4 col-xs-12 hidden-xs">
+                            		<a href="#1">
+                            			<img src="img/rita.jpg" class="img-responsive lateral">
+                            		</a>
+                            	</div>
+                          </div>
+                          <div class="item">
+                            	<div class="col-sm-4 col-xs-12 hidden-xs">
+                            		<a href="#1">
+                            			<img src="img/cara.jpg" class="img-responsive lateral">
+                            		</a>
+                            	</div>
+                            	<div class="col-sm-4 col-xs-12">
+                            		<a href="#1">
+                            			<img src="img/rita.jpg" class="img-responsive">
+                            		</a>
+                            	</div>
+                            	<div class="col-sm-4 col-xs-12 hidden-xs">
+                            		<a href="#1">
+                            			<img src="img/emma.jpg" class="img-responsive lateral">
+                            		</a>
+                            </div>
+                          </div>
+                          <div class="item">
+                             	<div class="col-sm-4 col-xs-12 hidden-xs">
+                            		<a href="#1">
+                            			<img src="img/rita.jpg" class="img-responsive lateral">
+                            		</a>
+                            	</div>
+                              	<div class="col-sm-4 col-xs-12">
+                            		<a href="#1">
+                            			<img src="img/emma.jpg" class="img-responsive">
+                            		</a>
+                            	</div>
+                              	<div class="col-sm-4 col-xs-12 hidden-xs">
+                            		<a href="#1">
+                            			<img src="img/cara.jpg" class="img-responsive lateral">
+                            		</a>
+                            	</div>
+                          </div>           
+                    </div>
+                    <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                    <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+              </div>
+            </div>
+        </section>
+          
+        <section class="profile"><!--container con icona, h2 e p -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-4 profile-card">
+                        <img src="img/rita-profile.jpg">
+                        <p>ritaora1</p>
+                        <p>210 outfits</p>
+                    </div>
+                </div>
+            </div>  
+        </section>  
+          
+        <footer><!--container con input e 4 a con immagine -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="newsletter col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+                        <input class="bar-newsletter" type="text" name="newsletter" placeholder="Newsletter...">
+                        <input class="btn-newsletter" type="submit" name="send" value="Send"></input>
+                    </div>
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-1">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <a href="#"><img class="social" src="img/logo-teleg.png"></a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="#"><img class="social" src="img/logo-twit.jpg"></a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="#"><img class="social" src="img/logo-fb.jpg"></a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="#"><img class="social" src="img/logo-pint.jpg"></a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </footer> 
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        
+        <!--Jquery slide show slick-->
+    	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    	
+ </body>
+</html>
